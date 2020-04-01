@@ -216,7 +216,7 @@ footer{
     height:100vh;
     min-height:500px;
     max-height:1080px;
-    background:url(../images/lead-bg.jpg);
+    background:url(../resources/lead-bg.jpg);
     background-size:cover;
     padding:15px;
     overflow:hidden
@@ -715,4 +715,3 @@ footer{
         padding:5px 10px
     }
 }
- 
