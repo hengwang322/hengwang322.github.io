@@ -111,20 +111,36 @@
                         <h3>Wind Power Prediction</h3>
                         <p>
                             I developed a wind power prediction model to forecast hourly outputs of major wind farms in South Australia.
-                            First I built a data pipeline in Python to acquire publicly available data. After cleaning the data and some EDA,
-                            an XGBoost model is built to discover the relationship between the weather and power data. Finally, I developed a
-                            live demo hosted on Heroku to continuously make forecasts based on real-time weather data.
+                            I built a data pipeline in Python to ingest and clean public data. I used various models, such as XGBoost,
+                            to discover the relationship between the weather and power data. Finally, I developed a
+                            web app hosted on Heroku to stream real-time weather data and continuously make forecasts.
                         </p>
                         <p>
-                            <a href="https://wpp-hw.herokuapp.com/" target="_blank">View Live Demo</a>
+                            <a href="https://wpp-hw.herokuapp.com/" target="_blank">View Web App</a>
                         </p>
                         <p>
                             <a href="https://github.com/hengwang322/wind_power_prediction" target="_blank">View Project</a>
                         </p>
                     </div>
-                    <!-- End .project-info -->
                 </div>
-                <!-- End .project -->
+
+                <div class="project shadow-large">
+                    <div class="project-image">
+                        <img src="resources/wind_explain.png" />
+                    </div>
+                    <!-- End .project-image -->
+                    <div class="project-info">
+                        <h3>Explainable Wind Power Forecast Workflow</h3>
+                        <p>
+                            I built a semi-automated data science pipeline and an explainable workflow with Lale & AIX360
+                            to forecast wind power based on weather data. This workflow allows data scientists to better understand how
+                            model performs so they can choose hyperparameters
+                            and features accordingly to continuously re-train models.
+                            <br>This is my submission to IBM AI Explainability Hackathon, which won second place.
+                        </p>
+                        <a href="https://explainability-hackathon.bemyapp.com/#/projects/5eaa425725f1d3001b67f7a0" target="_blank">View Project</a>
+                    </div>
+                </div>
 
                 <div class="project shadow-large">
                     <div class="project-image">
@@ -140,9 +156,7 @@
                         </p>
                         <a href="https://github.com/hengwang322/job_scraping" target="_blank">View Project</a>
                     </div>
-                    <!-- End .project-info -->
                 </div>
-                <!-- End .project -->
             </div>
         </div>
     </div>
